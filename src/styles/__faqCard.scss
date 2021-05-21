@@ -1,0 +1,51 @@
+.topicCardWrapper{
+    padding: 30px 15px 30px 15px;
+    border: none;
+    border-radius:20px;
+    background-color: orange;
+    margin: 15px;
+    width: 150px;
+    min-height: 75px;
+    display: flex;
+    .topicText{
+        position: relative;
+        font-family: var(--gilroy);
+        font-size: 22.5px;
+        color: white;
+        text-transform: lowercase;
+        text-align:center;
+        margin:auto;
+        font-weight: bold;
+    }
+}
+
+.topicCardWrapper:hover{
+    box-shadow: 2px 2px 3px grey;
+}
+
+@media screen and (max-width: 480px){
+    .topicCardWrapper{
+        padding: 35px 30px 35px 30px;
+        border: none;
+        border-radius:20px;
+        background-color: orange;
+        margin: 10px;
+        width: 200px;
+        min-height: 75px;
+        display: flex;
+        .topicText{
+            position: relative;
+            font-family: var(--gilroy);
+            font-size: 17.5px;
+            color: white;
+            text-transform: lowercase;
+            text-align:center;
+            margin-right:auto;
+            font-weight: bold;
+        }
+    }
+    
+    .topicCardWrapper:hover{
+        box-shadow: 2px 2px 3px grey;
+    }
+}

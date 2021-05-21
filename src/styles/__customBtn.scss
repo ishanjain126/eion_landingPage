@@ -1,0 +1,163 @@
+.customButtonWrapper{
+    .customBtn{
+        border:hidden;
+        border-radius: 45px;
+        padding: 20px;
+        font-family: var(--gilroy);
+        font-size: 30px;
+        // font-weight: bold;
+        // width: 300px;
+    }
+}
+.customModal {
+    border-radius: 35px;
+    width:100%;
+  }
+
+/*---intro page---*/
+
+  .modal_1{
+    .logoImg{
+        height: 30px;
+        width:auto;
+        position:relative;
+    }
+    .modal1_content{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 25px;
+        .modal1_instructions{
+            // margin-top:15px;
+            .modal1_header{
+                font-family: var(--gilroy);
+                font-size: 45px;
+                font-weight: bold;
+                margin-top: -10px;
+                margin-left: 25px;
+            }
+            .modal1_list{
+                font-family: var(--gilroy);
+                font-size: 18px;
+                font-weight: 400;
+                margin-top: 10px;
+            }
+        }
+    }
+    .qrImage{
+        height: 350px;
+        width:auto;
+        margin-top:-50px;
+    }
+}
+.modal_2{
+    display: none;
+}
+
+
+@media screen and (max-width:480px){
+    .customButtonWrapper{
+        .customBtn{
+            border:hidden;
+            border-radius: 8px;
+            padding: 10px 20px 10px 20px;
+            font-family: var(--poppins);
+            font-size: 12.5px;
+            font-weight: regular;
+            min-width: 130px;
+        }
+    }
+    .customModal {
+        border-radius: 12px;
+        width:80%;
+        height: 80%;
+      }
+    
+    /*---intro page---*/
+    
+    .modal_1{
+          display: none;
+        .logoImg{
+            height: auto;
+            width:50px;
+            position:relative;
+        }
+        .modal1_content{
+            display: grid;
+            grid-template-rows: auto auto;
+            margin-top: 25px;
+            .modal1_instructions{
+                // margin-top:15px;
+                .modal1_header{
+                    font-family: var(--gilroy);
+                    font-size: 45px;
+                    font-weight: bold;
+                    margin-top: -10px;
+                    margin-left: 25px;
+                }
+                .modal1_list{
+                    font-family: var(--gilroy);
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-top: 10px;
+                }
+            }
+        }
+        .qrImage{
+            height: 350px;
+            width:auto;
+            margin-top:-50px;
+        }
+    }
+    .modal_2{
+        display: inline;
+        font-family: var(--gilroy);
+        // margin-left: 25px;
+        position: relative;
+        .modal2_imgWrapper{
+            .modal2_img{
+                height: 30px;
+                width: auto;
+            }
+        }
+        .modal2_text{
+            text-align:center;
+            margin-top: 50px;
+            font-size: 30px;
+            font-weight: bold;
+            color: #01499D;
+            // margin-left: 45px;
+        }
+        .modal2_download_img{
+            margin-top: 50px;
+            text-align:center;
+            .download_img{
+                height: 300px;
+                width: auto;
+            }
+        }
+        .modal2_link{
+           text-align: center;
+           justify-content: center;
+            .appstore_btn{
+                border:none;
+                padding: 12px;
+                border-radius: 25px;
+                margin-top: 18px;
+                justify-content: center;
+                background-color: black;
+                .btn_link_style_wrapper{
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    .btn_link_text{
+                        font-family: var(--gilroy);
+                        font-size: 15px;
+                        margin:auto;
+                        margin-left: 7px;
+                        color: white;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

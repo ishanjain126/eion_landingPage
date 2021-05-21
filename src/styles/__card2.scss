@@ -1,0 +1,130 @@
+.cardWrapper{
+    box-shadow: 2px 2px 3px 1px #021b16;
+    // padding-top: 15px;
+    margin:auto;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 75px;
+    margin-bottom: 50px;
+    border-radius: 7px;
+    padding:25px;
+    .plan_logoWrapper{
+        display:flex;
+        flex-direction: row;
+        // grid-template-columns: auto auto;
+        .plan_logo{
+            border:none;
+            border-radius: 2.5px;
+            padding: 10px;
+            // margin:auto;
+            text-align: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // padding-top:10px;
+            // position: sticky;
+            // .plan_img{
+            //     height: 15px;
+            //     width:auto;
+            // }
+        }
+        .plan_text{
+            margin:auto;
+            margin-left: 25px;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: var(--gilroy);
+            // text-shadow: 2px 3px 4px rgb(122, 118, 118);
+        }
+    }
+    .planType{
+        // display: grid;
+        // grid-template-columns: auto auto;
+        display: flex;
+        flex-direction: row;
+        margin-top: 12px;
+        .plan_price{
+            margin-top: 15px;
+            font-size: 35px;
+            font-family: var(--gilroy);
+            font-weight: 500;
+        }
+        .plan_time{
+            margin-top: 28px;
+            font-size: 20px;
+            font-family: var(--gilroy);
+            font-weight: 300;
+            margin-left: 10px;
+        }
+    }
+    .plan_text{
+        margin-top: 25px;
+    }
+}
+
+
+@media screen and (max-width:480px){
+    .cardWrapper{
+        box-shadow: 2px 2px 3px 1px #021b16;
+        // padding-top: 15px;
+        margin:auto;
+        width: 250px;
+        margin-top: 40px;
+        // margin-left: 75px;
+        margin-bottom: 10px;
+        border-radius: 7px;
+        text-align: center;
+        .plan_logoWrapper{
+            display:flex;
+            flex-direction: row;
+            // grid-template-columns: auto auto;
+            .plan_logo{
+                border:none;
+                border-radius: 2.5px;
+                padding: 10px;
+                // margin:auto;
+                text-align: left;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                // padding-top:10px;
+                // position: sticky;
+                // .plan_img{
+                //     height: 15px;
+                //     width:auto;
+                // }
+            }
+            .plan_text{
+                margin:auto;
+                margin-left: 25px;
+                font-size: 30px;
+                font-weight: bold;
+                font-family: var(--gilroy);
+                // text-shadow: 2px 3px 4px rgb(122, 118, 118);
+            }
+        }
+        .planType{
+            // display: grid;
+            // grid-template-columns: auto auto;
+            display: flex;
+            flex-direction: row;
+            margin-top: 12px;
+            .plan_price{
+                margin-top: 15px;
+                font-size: 35px;
+                font-family: var(--gilroy);
+                font-weight: 500;
+            }
+            .plan_time{
+                margin-top: 28px;
+                font-size: 20px;
+                font-family: var(--gilroy);
+                font-weight: 300;
+                margin-left: 10px;
+            }
+        }
+        .plan_text{
+            margin-top: 25px;
+        }
+    }
+}

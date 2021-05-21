@@ -1,0 +1,30 @@
+{
+    "General_FAQs":[
+        {
+            "Question" : "Question 1.1",
+            "Answer" : "Answer 1.1"
+        },
+        {
+            "Question" : "Question 1.2",
+            "Answer" : "Answer 1.2"
+        },
+        {
+            "Question" : "Question 1.3",
+            "Answer" : "Answer 1.3"
+        }
+    ],
+    "Payment_FAQs":[
+        {
+            "Question" : "Question 2.1",
+            "Answer" : "Answer 2.1"
+        },
+        {
+            "Question" : "Question 2.2",
+            "Answer" : "Answer 2.2"
+        },
+        {
+            "Question" : "Question 2.3",
+            "Answer" : "Answer 2.3"
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+.helpWrapper{
+    // background-image: url("https://images.pexels.com/photos/1831271/pexels-photo-1831271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    overflow: hidden;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    // background-position: center;
+    .help{
+        padding-top: 100px;
+        padding-bottom:100px;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-right:auto;
+        margin-left:auto;
+        .help_heading{
+            font-family:var(--gilroy);
+            font-size: 80px;
+            font-weight: bold;
+            color:rgb(255, 255, 255);
+            margin-left: 200px;
+            margin-right:auto;
+            width: 800px;
+        }
+        .imageHelp{
+            .help_img1{
+                height:400px;
+                width:auto;
+            }
+        }
+        .help_content{
+            font-family: var(--gilroy);
+            font-size: 35px;
+            margin-top:20px;
+            font-weight: bold;
+            width:800px;
+            line-height:35pt;
+            margin-right: auto;
+            margin-left:200px;
+            text-align:left;
+            color:rgb(241, 236, 228);
+        }
+    }
+}
+
+@media screen and (max-width:480px){
+    .helpWrapper{
+        // background-image: url("https://images.pexels.com/photos/1831271/pexels-photo-1831271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        overflow: hidden;
+        background-size:cover;
+        background-attachment: initial;
+        background-position: center;
+        // background-position: center;
+        .help{
+            padding-top: 80px;
+            padding-bottom:100px;
+            // display: grid;
+            // grid-template-columns: auto auto;
+            margin-right:auto;
+            margin-left:auto;
+            .help_heading{
+                position:relative;
+                font-family:var(--gilroy);
+                font-size: 55px;
+                font-weight: bold;
+                color:rgb(255, 255, 255);
+                margin-left: 20px;
+                padding: 0px 15px 10px 7px;
+                width: fit-content;
+            }
+            .imageHelp{
+                .help_img1{
+                    height:400px;
+                    width:auto;
+                }
+            }
+            .help_content{
+                font-family: var(--gilroy);
+                font-size: 30px;
+                margin-top:20px;
+                font-weight: bold;
+                width:fit-content;
+                line-height:35pt;
+                margin-left:20px;
+                padding: 0px 15px 10px 7px;  
+                text-align:left;
+                color:rgb(241, 236, 228);
+            }
+        }
+    }
+}

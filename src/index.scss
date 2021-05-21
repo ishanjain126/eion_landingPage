@@ -1,0 +1,31 @@
+@import "./styles/variables.scss";
+@import "./styles/_intro.scss";
+@import "./styles/_about.scss";
+@import "./styles/_help.scss";
+@import "./styles/__expo.scss";
+@import "./styles/_card1.scss";
+@import "./styles/__customBtn.scss";
+@import "./styles//__plans.scss";
+@import "./styles/__card2.scss";
+@import "./styles/__planList.scss";
+@import "./styles/__register.scss";
+@import "./styles/__contactinfo.scss";
+@import "./styles/__faq.scss";
+@import "./styles/__faqCard.scss";
+@import "./styles/__faqContent.scss";
+@import "./styles/_customButton2.scss";
+@import "./styles/_navbar.scss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

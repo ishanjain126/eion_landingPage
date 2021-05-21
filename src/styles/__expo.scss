@@ -1,0 +1,117 @@
+.expoWrapper{
+    background-image: url("https://images.pexels.com/photos/2078266/pexels-photo-2078266.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    // margin-top: 60px;
+    // margin-bottom: 50px;
+    padding-bottom: 50px;
+    // background-attachment: fixed;
+    // background-position: center;
+    background-size:cover;
+    overflow:hidden;
+    .expo{
+        color:black;
+        display: flex;
+        flex-direction: column;
+        .headingImg{
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-bottom: 70px;
+            .expo_heading{
+                font-family:var(--gilroy);
+                position:relative;
+                font-size: 60px;
+                width: 600px;
+                color:black;
+                font-weight: bold;
+                text-align:left;
+                margin-left:175px;
+                // margin-left:auto;
+                padding-top: 75px;
+                text-shadow: 2px 2px 4px #747171;
+                .expo_btn{
+                    margin-top: 30px;
+                }
+            }
+            .imageCardWrapper{
+                .expo_image1{
+                    // text-align:center;
+                    margin-top: 25px;
+                    margin-right: 150px;
+                    .expo_img1{
+                        height: 400px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+        .featureCard{
+            display:grid;
+            grid-template-columns: auto auto auto auto;
+            position:relative;
+            margin:auto;
+        }
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .expoWrapper{
+        background-image: url("https://images.pexels.com/photos/2078266/pexels-photo-2078266.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        // margin-top: 60px;
+        // margin-bottom: 50px;
+        padding-bottom: 50px;
+        // background-attachment: fixed;
+        // background-position: center;
+        background-size:cover;
+        overflow:hidden;
+        .expo{
+            color:black;
+            display: flex;
+            flex-direction: column;
+            .headingImg{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 70px;
+                .expo_heading{
+                    font-family:var(--gilroy);
+                    position:relative;
+                    font-size: 55px;
+                    width: fit-content;
+                    color:black;
+                    font-weight: bold;
+                    text-align:left;
+                    margin-left:20px;
+                    margin-right: 20px;
+                    padding-top: 75px;
+                    text-shadow: 2px 2px 4px #747171;
+                    .expo_btn{
+                        margin-top: 30px;
+                    }
+                }
+                .imageCardWrapper{
+                    .expo_image1{
+                        text-align:center;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 25px;
+                        // margin-right: 150px;
+                        .expo_img1{
+                            // width: 175%;
+                            width: 360px;
+                            height: auto;
+                            // top: 10%;
+                            margin-left: 0px;
+                            border-radius: 3px;
+                        }
+                    }
+                }
+            }
+            .featureCard{
+                display:flex;
+                flex-direction: column;
+                position:relative;
+                margin:auto;
+            }
+        }
+    }
+    
+}

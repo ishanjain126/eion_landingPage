@@ -1,0 +1,300 @@
+.contactWrapper{
+    // margin-top: 15px;
+    background-color: #222222;
+    width:auto;
+    padding:25px;
+    padding-left:45px;
+    color:white;
+    font-size:25px;
+    font-family: var(--gilroy);
+    justify-content:center;
+    .contactHeading{
+        text-align: left;
+        font-family:var(--gilroy);
+        font-size:60px;
+        width:900px;
+        line-height:50pt;
+        font-weight: bold;
+    }
+    .contactsubHeading{
+        text-align: left;
+        font-family:var(--gilroy);
+        font-size:30px;
+        font-weight: 400;
+        color:#C9C3C3;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .contactInfo{
+        text-align:center;
+        margin-top:18px;
+        margin-bottom:15px;
+        .contactForm{
+            background-color: transparent;
+            border-color: #C2B5B5;
+            border-width: 1px;
+            box-shadow: none;
+            border-radius: 20px;
+            color: #C2B5B5;
+            padding: 10px;
+            margin-bottom:15px;
+            width: 500px;
+            font-family: var(--gilroy);
+        }
+        .contactFormArea{
+            background-color: transparent;
+            border-color: #C2B5B5;
+            border-width: 1px;
+            box-shadow: none;
+            border-radius: 20px;
+            color: #C2B5B5;
+            padding: 15px;
+            margin-bottom:15px;
+            width: 500px;
+            height:70px;
+            font-family: var(--gilroy);
+        }
+    }
+    .btnGrp{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .btn1:disabled{
+            color:white;
+        }
+        .btn1{
+            border:none;
+            border-radius: 35px;
+            padding:7px 12px 7px 10px;
+            color: black;
+            display: grid;
+            grid-template-columns: auto auto;
+            .btn1_span1{
+                .whatsapp{
+                    height : 20px;
+                    width:auto;
+                }
+            }
+            .btn1_span2{
+                margin:auto;
+                padding-left: 7px;
+                font-family: var(--gilroy);
+                font-weight: 300px;
+            }
+        }
+        .btn2{
+            border:none;
+            border-radius: 15px;
+            padding-left: 20px;
+            color: black;
+            .email_button:disabled{
+                color:white;
+            }
+            .email_button{
+                border:none;
+                border-radius: 35px;
+                padding: 7px 12px 7px 10px;
+                color:black;
+                display: grid;
+                grid-template-columns: auto auto;
+                .btn2_span1{
+                    .gmail{
+                        height : 17px;
+                        width:auto;
+                    }
+                }
+                .btn2_span2{
+                    margin:auto;
+                    padding-left: 7px;
+                    font-family: var(--gilroy);
+                }
+            } 
+        }
+    }
+    .brandName{
+        text-align:center;
+        font-family:var(--gilroy);
+        font-size:25px;
+        margin-top: 35px;
+        color: #C2B5B5;
+    }
+    .navtabs{
+        // display: grid;
+        // grid-template-columns: auto auto;
+        display: flex;
+        flex-direction:row;
+        text-align:center;
+        justify-content: center;
+        margin-top: 25px;
+        margin-bottom:30px;
+        .privacyPolicy{
+            color: #C2B5B5;
+            font-family: var(--gilroy);
+            font-size:20px;
+        }
+        .terms{
+            color: #C2B5B5;
+            font-family: var(--gilroy);
+            font-size:20px;
+            margin-left: 25px;
+        }
+        .faqs{
+            color: #C2B5B5;
+            font-family: var(--gilroy);
+            font-size:20px;
+            margin-left: 25px;     
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width:480px) 
+ {
+    .contactWrapper{
+        background-color: #222222;
+        // padding:25px;
+        padding-left:25px;   
+        color:white;
+        font-family: var(--vesper);
+        justify-content:center;
+        width:auto;
+        overflow: hidden;
+        .contactHeading{
+            text-align: left;
+            font-family:var(--gilroy);
+            font-size:30px;
+            line-height:35pt;
+            width:300px;
+            padding-right: 25px;
+        }
+        .contactsubHeading{
+            text-align: left;
+            font-family:var(--gilroy);
+            font-size:15px;
+            color:#C9C3C3;
+            margin-top:10px;
+            width: 300px;
+            line-height:20pt;
+        }
+        .contactInfo{
+            text-align:center;
+            margin-top:18px;
+            margin-bottom:15px;
+            .contactForm{
+                background-color: transparent;
+                border-color: #C2B5B5;
+                border-width: 1px;
+                box-shadow: none;
+                border-radius: 20px;
+                color: #C2B5B5;
+                padding: 10px;
+                margin-bottom:15px;
+                width: 250px;
+            }
+            .contactFormArea{
+                background-color: transparent;
+                border-color: #C2B5B5;
+                border-width: 1px;
+                box-shadow: none;
+                border-radius: 20px;
+                color: #C2B5B5;
+                padding: 15px;
+                margin-bottom:15px;
+                width: 250px;
+                height:70px;
+                font-family: var(--gilroy);
+            }
+        }
+        .btnGrp{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .btn1:disabled{
+                color:white;
+            }
+            .btn1{
+                border:none;
+                border-radius: 35px;
+                padding: 7px 12px 7px 10px;
+                color: black;
+                display: grid;
+                grid-template-columns: auto auto;
+                width: 100%;
+                overflow:hidden;
+                .btn1_span1{
+                    .whatsapp{
+                        height : 20px;
+                        width:auto;
+                    }
+                }
+                .btn1_span2{
+                    margin:auto;
+                    padding-left: 7px;
+                }
+            }
+            .btn2{
+                border:none;
+                border-radius: 15px;
+                padding-left: 20px;
+                color: black;
+                .email_button:disabled{
+                    color:white;
+                }
+                .email_button{
+                    border:none;
+                    border-radius: 35px;
+                    padding: 7px 12px 7px 10px;
+                    color:black;
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    .btn2_span1{
+                        .gmail{
+                            height : 17px;
+                            width:auto;
+                        }
+                    }
+                    .btn2_span2{
+                        margin:auto;
+                        padding-left: 7px;
+                    }
+                } 
+            }
+        }
+        .brandName{
+            text-align:center;
+            font-family:var(--gilroy);
+            font-size:20px;
+            margin-top: 35px;
+            color: #C2B5B5;
+        }
+        .navtabs{
+            // display: grid;
+            // grid-template-columns: auto auto;
+            display: flex;
+            flex-direction:column;
+            text-align:center;
+            justify-content: center;
+            margin-top: 25px;
+            margin-bottom:30px;
+            .privacyPolicy{
+                color: #C2B5B5;
+                font-family: var(--gilroy);
+                font-size:20px;
+            }
+            .terms{
+                color: #C2B5B5;
+                font-family: var(--gilroy);
+                font-size:20px;
+                margin-top:10px;
+                // margin-left: 25px;
+            }
+            .faqs{
+                margin-top: 10px;
+                color: #C2B5B5;
+
+            }
+        }
+    }
+}
