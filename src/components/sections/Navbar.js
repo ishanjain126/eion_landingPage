@@ -3,16 +3,16 @@ import {absoluteURL} from "../../utils";
 
 function Navbar() {
     const [tabColor, setTabColor] = useState("#f7f7f7");
-    useEffect(() => {
-        window.onscroll = () => {
-            if(window.scrollY > 100){
-                setTabColor("#ffffff")
-            }
-            else{
-                setTabColor("#f7f7f7")
-            }
-        }
-    }, [])
+    // useEffect(() => {
+    //     window.onscroll = () => {
+    //         if(window.scrollY > 100){
+    //             setTabColor("#ffffff")
+    //         }
+    //         else{
+    //             setTabColor("#f7f7f7")
+    //         }
+    //     }
+    // }, [])
     console.log(tabColor)
     return (
         <div className="navbarWrapper">
